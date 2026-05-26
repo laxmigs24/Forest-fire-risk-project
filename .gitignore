@@ -1,0 +1,19 @@
+# Large data files
+*.grib
+*.csv
+*.h5
+*.pkl
+*.joblib
+# Ignore virtual environment
+venv/
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
