@@ -102,6 +102,19 @@ Forest-fire-risk-analysis
 └── README.md
 ```
 
+## 📂 Dataset Source
+
+This project uses the **Forest Fires Dataset** from the UCI Machine Learning Repository:
+
+🔗 https://archive.ics.uci.edu/dataset/162/forest+fires
+
+The dataset contains meteorological and environmental variables associated with wildfire occurrences in the Montesinho Natural Park region of Portugal. It includes features such as temperature, humidity, wind speed, drought indicators, and fire spread metrics, making it well-suited for wildfire severity prediction and environmental risk analysis.
+
+The dataset was used for:
+- environmental feature engineering
+- wildfire risk pattern analysis
+- machine learning model training
+- operational wildfire severity prediction
 
 ## 📊 Dataset Features
 

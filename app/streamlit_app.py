@@ -35,7 +35,7 @@ st.markdown("""
 This machine learning system predicts wildfire severity risk
 using meteorological, environmental, and fire spread indicators.
 
-The deployed model is a **Threshold-Tuned XGBoost Classifier**
+The deployed model is a *Threshold-Tuned XGBoost Classifier*
 optimised to prioritise detection of dangerous wildfire conditions.
 """)
 
@@ -48,8 +48,8 @@ st.sidebar.header("ℹ️ System Overview")
 st.sidebar.info("""
 ### Prediction Classes
 
-- 🔴 High Severity
-- 🟢 Low Severity
+•⁠  ⁠🔴 High Severity
+•⁠  ⁠🟢 Low Severity
 
 The model prioritises identifying
 dangerous wildfire conditions.
@@ -64,11 +64,11 @@ st.sidebar.write(f"Classification Threshold: {threshold}")
 st.sidebar.header("🔥 High-Risk Indicators")
 
 st.sidebar.markdown("""
-- High temperature
-- Low humidity
-- Strong winds
-- High drought code
-- Rapid fire spread
+•⁠  ⁠High temperature
+•⁠  ⁠Low humidity
+•⁠  ⁠Strong winds
+•⁠  ⁠High drought code
+•⁠  ⁠Rapid fire spread
 """)
 
 # =====================================================
@@ -539,11 +539,11 @@ st.divider()
 st.subheader("🤖 Model Information")
 
 st.markdown(f"""
-- **Model Type:** Threshold-Tuned XGBoost  
-- **Classification Threshold:** {threshold}  
-- **Objective:** Prioritise dangerous wildfire detection  
-- **Optimisation Goal:** Maximise High Severity Recall  
-- **Deployment Type:** Wildfire Risk Decision Support System  
+•⁠  ⁠*Model Type:* Threshold-Tuned XGBoost  
+•⁠  ⁠*Classification Threshold:* {threshold}  
+•⁠  ⁠*Objective:* Prioritise dangerous wildfire detection  
+•⁠  ⁠*Optimisation Goal:* Maximise High Severity Recall  
+•⁠  ⁠*Deployment Type:* Wildfire Risk Decision Support System  
 """)
 
 # =====================================================
